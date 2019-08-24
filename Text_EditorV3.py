@@ -125,6 +125,7 @@ class Text_Editor:
         fileMenu.add_command(label='Exit', command=self.exitFile)
 
 
+# Runner
 txt_editor = Text_Editor()
 txt_editor.createMenu()
 
